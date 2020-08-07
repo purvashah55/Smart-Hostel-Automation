@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+input[type=text]
+{
+	width: 100%;
+	padding: 8px 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #555;
+	outline: none;  
+}
+
+input[type=text]:focus
+{
+	background-color: lightblue;
+}
+
+select
+{
+	font-size: 16px;
+	padding: 4px 3px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	outline: none;  
+}
+
+input[type=number]
+{
+	font-size: 16px;
+	padding: 4px 3px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #555;
+	outline: none; 	
+}
+
+input[type=submit]
+{
+	font-size: 18px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: 1px solid #555;
+	cursor: pointer;
+}
+
+
